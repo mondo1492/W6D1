@@ -1,0 +1,82 @@
+li {
+
+  background-color: grey;
+  height: 270px;
+  width: 270px;
+  float: left;
+  list-style: none;
+  border: 5px solid pink;
+}
+/*
+ul {
+  border: 5px solid
+}*/
+h1  {
+  font-size: 80px;
+}
+
+
+.group {
+  margin: 0 auto;
+  border: 5px solid pink;
+  padding: 0;
+  width: 840px;
+}
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+li:hover {
+  background-color: yellow;
+
+}
+
+.yellow {
+  background-color: blue;
+}
+
+.x:after {
+  font-family: wingdings;
+  content: "L";
+  display: block;
+  background-color: pink;
+  font-size: 150px;
+  height: 270px;
+  text-align: center;
+  line-height: 180%;
+}
+
+.o:after {
+  font-family: wingdings;
+  display: block;
+  content: "J";
+  color: white;
+  background-color: black;
+  font-size: 150px;
+  height: 270px;
+  text-align: center;
+  line-height: 180%;
+}
+
+.game-over {
+  background-color: white;
+}
+
+
+.game-over li {
+  background: white;
+}
+
+.winner-x .x,
+.winner-o .o {
+  background: green;
+  color: white;
+}
+figcaption {
+  margin-top: 30px;
+  font-size: 30px;
+  text-align: center;
+}
